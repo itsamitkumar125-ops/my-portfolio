@@ -1,15 +1,8 @@
-body {
-  background: black;
-  color: white;
-  font-family: Arial;
-  text-align: center;
-  margin-top: 100px;
-}
-h1 {
-  color: #00ff88;
-  font-size: 50px;
-}
-p {
-  color: gray;
-  font-size: 20px;
-}
+body{background:#111;display:flex;justify-content:center;align-items:center;min-height:100vh;font-family:Arial;color:white;margin:0}
+.card{background:#1a1a1a;padding:40px;border-radius:20px;max-width:450px;text-align:center;border:1px solid #333}
+h1{color:#00ff88;margin:0}
+.tag{color:#888;margin-top:5px}
+.skills{margin:20px 0}
+.skills span{background:#222;padding:6px 12px;border-radius:20px;margin:5px;display:inline-block;font-size:12px;border:1px solid #333}
+.links a{color:#00ff88;text-decoration:none;margin:0 10px;font-weight:bold}
+.day{margin-top:20px;color:#555;font-size:13px}
